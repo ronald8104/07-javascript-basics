@@ -30,3 +30,17 @@ console.log(numbers2);
 const numbers3 = [...numbers1, 1, 2, ...numbers1, 6, 7, 8, ...numbers1];
 console.log(numbers3.length);
 console.log(numbers3);
+
+// the rest operator enables the developer to create functions
+// that can take an indefinite number of arguments
+
+// Let’s assume you want to create a function that calculates the sum of all its arguments
+function sum(...numbers) {
+  return numbers.reduce((accumulator, current) => {
+    return (accumulator += current);
+  });
+}
+
+console.log(sum(1, 2));
+console.log(sum(1, 2, 5));
+console.log(sum(1, 2, 5, 6, 4));
