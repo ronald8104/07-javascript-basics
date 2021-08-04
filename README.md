@@ -10,9 +10,9 @@
 - Realizar commit indicando un mensaje y pulsar (+) o [ctrl + Enter]
 - Los archivos no aparecerán en el Staged Area
 
-  ```
   ### Steps summary
 
+  ```
   - Create a directory (folder) for your code
   - Add a file
   - Git inicialize
@@ -31,9 +31,9 @@
 
   - VSC abre una ventana, pulsar yes
 
-    ```
     ### Steps summary
 
+    ```
     - Add a remote repo (Hey Git, I have a Remote!)
     - Git fetch
     ```
