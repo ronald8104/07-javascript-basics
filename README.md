@@ -26,12 +26,13 @@
 - Entrar la url del repositorio remoto
 - Entrar el nombre del repositorio remoto
 - Ejecutar: git fetch (para habilitar actualizaciones periodicas)
+
   - VSC abre una ventana, pulsar yes
 
-### Steps summary
+    ### Steps summary
 
-- Add a remote repo (Hey Git, I have a Remote!)
-- Git fetch
+    - Add a remote repo (Hey Git, I have a Remote!)
+    - Git fetch
 
 # Sincronizando el código con Github
 
