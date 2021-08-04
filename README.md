@@ -1,6 +1,6 @@
 # 07-javascript-basics
 
-Javascript Examples
+## Javascript Examples
 
 - Seleccionar el botón de SCV e iniciar Repositorio
 - Seleccionar la carpeta con el proyecto (nombre)
@@ -10,7 +10,7 @@ Javascript Examples
 - Realizar commit indicando un mensaje y pulsar (+) o [ctrl + Enter]
 - Los archivos no aparecerán en el Staged Area
 
-## Steps summary
+### Steps summary
 
 - Create a directory (folder) for your code
 - Add a file
@@ -19,7 +19,7 @@ Javascript Examples
 - Add file to the Stage Area
 - Commit changes
 
-Indicar un repositorio remoto
+# Indicar un repositorio remoto
 
 - Adicionar un repositorio remoto (ctrl + shift + p)
 - Pulsar: add remote
@@ -28,23 +28,23 @@ Indicar un repositorio remoto
 - Ejecutar: git fetch (para habilitar actualizaciones periodicas)
   - VSC abre una ventana, pulsar yes
 
-## Steps summary
+### Steps summary
 
 - Add a remote repo (Hey Git, I have a Remote!)
 - Git fetch
 
-Sincronizando el código con Github
+# Sincronizando el código con Github
 
 - En el borde inferior derecho hay botón (publicar cambios)
 - Ejecutar: Git sync
 - Entrar credenciales
 
-Actualizando cambios desde Github al repo local
+## Actualizando cambios desde Github al repo local
 
 - Puedes ejecutar: git pull from...
 - o ejecutar: git sync
 
-Creando branch
+# Creando branch
 
 - Puedes verificar las ramas: git checkout to (muestra las ramas locales y remotas)
 - Ejecutar: git create branch
@@ -60,7 +60,7 @@ VSC solo envia a Github los cambios realizados en la rama seleccionada
 - Selecciono la rama que deseo sincronizar: git checkout
 - Ejecutar: git sync
 
-Para clonar un repositorio remoto para tu repo local
+# Para clonar un repositorio remoto para tu repo local
 
 - Crear un directorio local con el mismo nombre
 - Abrir VSC y ejecutar: git clone (poner la url)
