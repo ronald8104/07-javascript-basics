@@ -26,3 +26,7 @@ const numbers2 = [...numbers1, 1, 2, 6, 7, 8];
 // this will be [1, 2, 3, 4, 5, 1, 2, 6, 7, 8]
 console.log(numbers1);
 console.log(numbers2);
+
+const numbers3 = [...numbers1, 1, 2, ...numbers1, 6, 7, 8, ...numbers1];
+console.log(numbers3.length);
+console.log(numbers3);
