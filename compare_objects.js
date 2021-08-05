@@ -56,3 +56,25 @@ console.log(
   strArray1.sort().toString().toLocaleLowerCase() ===
     strArray2.sort().toString().toLocaleLowerCase()
 );
+
+str1 = ["A", "d", "C", "E", "b"];
+str2 = ["c", "D", "a", "B", "e"];
+
+let str1LowerCase = [];
+let str2LowerCase = [];
+
+str1.forEach((value, index) => {
+  str1LowerCase[index] = value.toLowerCase();
+});
+
+str2.forEach((value, index) => {
+  str2LowerCase[index] = value.toLowerCase();
+});
+
+console.log(str1LowerCase);
+console.log(str2LowerCase);
+
+console.log(
+  strArray1.sort().toString().toLocaleLowerCase() ===
+    strArray2.sort().toString().toLocaleLowerCase()
+);
