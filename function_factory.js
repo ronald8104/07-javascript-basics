@@ -43,3 +43,4 @@ console.log(p3.age);
 console.log(p3.run());
 
 console.log(p3.constructor); //[Function: Person]
+
