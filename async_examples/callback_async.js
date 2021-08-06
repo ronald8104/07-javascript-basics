@@ -1,3 +1,5 @@
+// async: Un solo mesero puede atender a varios clientes
+
 let animals = [
   { type: "Herbivorous", example: "Deer" },
   { type: "Carnivorous", example: "Tier" },
